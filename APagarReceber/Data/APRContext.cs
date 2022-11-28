@@ -15,5 +15,7 @@ namespace APagarReceber.Data
         }
 
         public DbSet<APagarReceber.Models.Lancamento> Lancamento { get; set; } = default!;
+
+        public DbSet<APagarReceber.Models.Conta> Conta { get; set; }
     }
 }
